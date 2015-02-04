@@ -7,7 +7,7 @@ if [ -z $module_dir ];then
     exit 1
 fi
 
-cd module_dir
+cd $module_dir
 
 rake module:push
 
