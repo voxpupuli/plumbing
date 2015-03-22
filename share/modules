@@ -1,0 +1,14 @@
+puppet-alternatives
+puppet-confluence
+puppet-dotnet
+puppet-module-amanda
+puppet-module-puppetboard
+puppet-msoffice
+puppet-nagios_providers
+puppet-network
+puppet-stash
+puppet-windows_autoupdate
+puppet-windows_eventlog
+puppet-windows_firewall
+puppet-windows_power
+puppetcommunity-extlib
