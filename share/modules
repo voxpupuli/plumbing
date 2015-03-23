@@ -7,6 +7,7 @@ puppet-msoffice
 puppet-nagios_providers
 puppet-network
 puppet-stash
+puppet-visualstudio
 puppet-windows_autoupdate
 puppet-windows_eventlog
 puppet-windows_firewall
