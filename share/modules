@@ -1,11 +1,17 @@
 puppet-alternatives
 puppet-confluence
 puppet-dotnet
+puppet-graphite_powershell
+puppet-jenkins_job_builder
+puppet-kafka
 puppet-module-amanda
 puppet-module-puppetboard
 puppet-msoffice
 puppet-nagios_providers
 puppet-network
+puppet-nsclient
+puppet-rundeck
+puppet-sslcert
 puppet-stash
 puppet-visualstudio
 puppet-windows_autoupdate
