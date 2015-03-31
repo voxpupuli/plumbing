@@ -4,6 +4,7 @@ puppet-dotnet
 puppet-graphite_powershell
 puppet-jenkins_job_builder
 puppet-kafka
+puppet-mcollective
 puppet-module-amanda
 puppet-module-puppetboard
 puppet-msoffice
