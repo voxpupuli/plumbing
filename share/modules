@@ -1,6 +1,7 @@
 puppet-alternatives
 puppet-confluence
 puppet-dotnet
+puppet-download_file
 puppet-graphite_powershell
 puppet-jenkins_job_builder
 puppet-kafka
