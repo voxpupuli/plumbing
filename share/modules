@@ -15,6 +15,7 @@ puppet-nsclient
 puppet-rundeck
 puppet-sslcert
 puppet-stash
+puppet-unattended_upgrades
 puppet-visualstudio
 puppet-windows_autoupdate
 puppet-windows_eventlog
