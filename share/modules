@@ -1,4 +1,5 @@
 puppet-alternatives
+puppet-archive
 puppet-confluence
 puppet-dotnet
 puppet-download_file
@@ -15,6 +16,7 @@ puppet-network
 puppet-nsclient
 puppet-rundeck
 puppet-sslcert
+puppet-staging
 puppet-stash
 puppet-unattended_upgrades
 puppet-visualstudio
