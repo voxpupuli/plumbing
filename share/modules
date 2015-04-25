@@ -6,6 +6,7 @@ puppet-download_file
 puppet-graphite_powershell
 puppet-iis
 puppet-jenkins_job_builder
+puppet-jira
 puppet-kafka
 puppet-mcollective
 puppet-module-amanda
