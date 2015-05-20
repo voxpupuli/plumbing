@@ -1,9 +1,11 @@
 puppet-alternatives
 puppet-archive
 puppet-confluence
+puppet-corosync
 puppet-dotnet
 puppet-download_file
 puppet-graphite_powershell
+puppet-healthcheck
 puppet-iis
 puppet-jenkins_job_builder
 puppet-jira
@@ -14,6 +16,7 @@ puppet-module-puppetboard
 puppet-msoffice
 puppet-nagios_providers
 puppet-network
+puppet-nodejs
 puppet-nsclient
 puppet-rundeck
 puppet-sslcert
