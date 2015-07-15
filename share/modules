@@ -4,6 +4,7 @@ puppet-confluence
 puppet-corosync
 puppet-dotnet
 puppet-download_file
+puppet-extlib
 puppet-graphite_powershell
 puppet-healthcheck
 puppet-iis
@@ -30,4 +31,3 @@ puppet-windows_eventlog
 puppet-windows_firewall
 puppet-windows_power
 puppet-windowsfeature
-puppetcommunity-extlib
