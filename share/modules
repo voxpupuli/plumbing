@@ -5,6 +5,7 @@ puppet-corosync
 puppet-dotnet
 puppet-download_file
 puppet-extlib
+puppet-git_resource
 puppet-graphite_powershell
 puppet-healthcheck
 puppet-iis
