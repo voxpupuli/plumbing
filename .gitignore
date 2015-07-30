@@ -1,1 +1,3 @@
 puppet_credentials
+Gemfile.lock
+*.swp
