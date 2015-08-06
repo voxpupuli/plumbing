@@ -1,5 +1,6 @@
 puppet-alternatives
 puppet-archive
+puppet-collectd
 puppet-confluence
 puppet-corosync
 puppet-dotnet
