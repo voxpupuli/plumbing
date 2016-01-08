@@ -1,6 +1,6 @@
 # plumbing
 
-This module contains utility scripts for puppet-community admins to
+This module contains utility scripts for voxpupuli admins to
 do various management tasks.
 
 

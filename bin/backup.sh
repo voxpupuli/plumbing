@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# script to pull all git repos on puppet-community so we don't have a jenkins incident
+# script to pull all git repos on voxpupuli so we don't have a jenkins incident
 # a jenkins incident is when someone accidentally forcepushes nothing to a bunch of
 # repos in a github org
 
@@ -12,7 +12,7 @@
 touch headers
 
 git_root="https://github.com/"
-repos_url="https://api.github.com/users/puppet-community/repos "
+repos_url="https://api.github.com/users/voxpupuli/repos "
 
 # the repos endpoint only gives 30 responses
 # it sets a 'Link' header with the next page

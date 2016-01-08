@@ -12,5 +12,5 @@ for module in `cat share/modules`
 do
     echo $module
     echo -n "secure: "
-    travis encrypt $travis_args -r puppet-community/$module $forge_password
+    travis encrypt $travis_args -r voxpupuli/$module $forge_password
 done
