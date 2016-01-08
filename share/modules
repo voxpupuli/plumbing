@@ -1,3 +1,4 @@
+community_kickstarts
 puppet-alternatives
 puppet-archive
 puppet-collectd
@@ -33,3 +34,4 @@ puppet-windows_eventlog
 puppet-windows_firewall
 puppet-windows_power
 puppet-windowsfeature
+voxpupuli-release-gem
