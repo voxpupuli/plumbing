@@ -7,6 +7,8 @@ puppet-corosync
 puppet-dotnet
 puppet-download_file
 puppet-extlib
+puppet-filemapper
+puppet-ghost
 puppet-git_resource
 puppet-graphite_powershell
 puppet-healthcheck
@@ -15,9 +17,11 @@ puppet-jenkins_job_builder
 puppet-jira
 puppet-kafka
 puppet-mcollective
+puppet-minecraft
 puppet-module-amanda
 puppet-module-puppetboard
 puppet-msoffice
+puppet-mumble
 puppet-mysql_java_connector
 puppet-nagios_providers
 puppet-network
