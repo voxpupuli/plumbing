@@ -28,6 +28,7 @@ puppet-network
 puppet-nodejs
 puppet-nsclient
 puppet-rundeck
+puppet-squid
 puppet-sslcert
 puppet-staging
 puppet-stash
