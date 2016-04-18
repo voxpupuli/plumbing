@@ -4,6 +4,7 @@ puppet-archive
 puppet-collectd
 puppet-confluence
 puppet-corosync
+puppet-dhcp
 puppet-dotnet
 puppet-download_file
 puppet-extlib
