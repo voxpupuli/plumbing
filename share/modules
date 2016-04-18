@@ -1,6 +1,7 @@
 puppet-community_kickstarts
 puppet-alternatives
 puppet-archive
+puppet-bacula
 puppet-collectd
 puppet-confluence
 puppet-corosync
