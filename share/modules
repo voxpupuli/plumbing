@@ -35,6 +35,7 @@ puppet-squid
 puppet-sslcert
 puppet-staging
 puppet-stash
+puppet-tea
 puppet-unattended_upgrades
 puppet-visualstudio
 puppet-windows_autoupdate
