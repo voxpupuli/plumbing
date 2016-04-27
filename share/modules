@@ -8,6 +8,7 @@ puppet-corosync
 puppet-dhcp
 puppet-dotnet
 puppet-download_file
+puppet-etherpad
 puppet-extlib
 puppet-filemapper
 puppet-ghost
@@ -43,4 +44,5 @@ puppet-windows_eventlog
 puppet-windows_firewall
 puppet-windows_power
 puppet-windowsfeature
+puppet-zabbix
 voxpupuli-release-gem
