@@ -13,6 +13,7 @@ puppet-extlib
 puppet-filemapper
 puppet-ghost
 puppet-git_resource
+puppet-gluster
 puppet-graphite_powershell
 puppet-healthcheck
 puppet-iis
