@@ -13,6 +13,7 @@ puppet-extlib
 puppet-filemapper
 puppet-ghost
 puppet-git_resource
+puppet-gluster
 puppet-graphite_powershell
 puppet-healthcheck
 puppet-iis
@@ -31,6 +32,7 @@ puppet-nagios_providers
 puppet-network
 puppet-nodejs
 puppet-nsclient
+puppet-puppetserver
 puppet-rundeck
 puppet-squid
 puppet-sslcert
