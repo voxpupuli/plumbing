@@ -1,8 +1,8 @@
-puppet-community_kickstarts
 puppet-alternatives
 puppet-archive
 puppet-bacula
 puppet-collectd
+puppet-community_kickstarts
 puppet-confluence
 puppet-corosync
 puppet-dhcp
@@ -24,7 +24,6 @@ puppet-kafka
 puppet-mcollective
 puppet-minecraft
 puppet-module-amanda
-puppet-module-puppetboard
 puppet-msoffice
 puppet-mumble
 puppet-mysql_java_connector
@@ -32,6 +31,7 @@ puppet-nagios_providers
 puppet-network
 puppet-nodejs
 puppet-nsclient
+puppet-puppetboard
 puppet-puppetserver
 puppet-rundeck
 puppet-squid
