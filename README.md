@@ -24,3 +24,18 @@ to encrypt:
 
 
 gpg -a -e -s $(for human in $(cat recipients.txt); do echo "-r ${human}"; done) puppet_credentials
+
+
+# syncing labels
+
+Syncing labels can be done by using github-label-sync. The labels.json file
+contains the labels to be synced
+
+To sync a repository:
+
+npm install -g github-label-sync
+github-label-sync -a <GitHub token> <repository>
+
+You can use -d for a dryrun to see what will be added and removed.
+
+
