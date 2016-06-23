@@ -48,5 +48,6 @@ puppet-windows_eventlog
 puppet-windows_firewall
 puppet-windows_power
 puppet-windowsfeature
+puppet-yum
 puppet-zabbix
 voxpupuli-release-gem
