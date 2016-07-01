@@ -39,3 +39,6 @@ github-label-sync -a <GitHub token> <repository>
 You can use -d for a dryrun to see what will be added and removed.
 
 
+# Syntax Validation
+
+We use https://github.com/caarlos0/shell-ci-build as a submodule in travis. This enables shellcheck and validates all \*,sh files. We probably should update it from time to time.
