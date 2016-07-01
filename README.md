@@ -18,7 +18,7 @@ to decrypt:
 
 
 ```
-bin/decrypt_credentials.sh
+./bin/decrypt_credentials.sh
 ```
 
 
