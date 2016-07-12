@@ -17,13 +17,17 @@ To generate the list of encrypted blobs for puppet forge deployment:
 to decrypt:
 
 
-gpg -d puppet_credentials.asc > puppet_credentials
+```
+./bin/decrypt_credentials.sh
+```
 
 
 to encrypt:
 
 
-gpg -a -e -s $(for human in $(cat recipients.txt); do echo "-r ${human}"; done) puppet_credentials
+```
+./bin/encrypt_credentials.sh
+```
 
 
 # syncing labels
