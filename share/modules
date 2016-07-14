@@ -25,7 +25,7 @@ puppet-jolokia
 puppet-kafka
 puppet-mcollective
 puppet-minecraft
-puppet-module-amanda
+puppet-amanda
 puppet-msoffice
 puppet-mumble
 puppet-mysql_java_connector
