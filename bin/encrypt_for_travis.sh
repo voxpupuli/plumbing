@@ -12,5 +12,6 @@ while read -r line;
 do
     echo "$line"
     echo -n "secure: "
-    travis encrypt "$travis_args" -r "voxpupuli/$line" "$forge_password"
+    # shellcheck disable=SC2086
+    travis encrypt $travis_args -r "voxpupuli/$line" "$forge_password"
 done < share/modules
