@@ -12,6 +12,7 @@ puppet-drbd
 puppet-etherpad
 puppet-extlib
 puppet-filemapper
+puppet-gerrit
 puppet-ghost
 puppet-git_resource
 puppet-gluster
