@@ -42,6 +42,7 @@ puppet-squid
 puppet-sslcert
 puppet-staging
 puppet-stash
+puppet-splunk
 puppet-tea
 puppet-unattended_upgrades
 puppet-visualstudio
