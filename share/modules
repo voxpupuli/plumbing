@@ -11,6 +11,7 @@ puppet-download_file
 puppet-drbd
 puppet-etherpad
 puppet-extlib
+puppet-fetchcrl
 puppet-filemapper
 puppet-gerrit
 puppet-ghost
