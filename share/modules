@@ -34,6 +34,7 @@ puppet-mysql_java_connector
 puppet-nagios_providers
 puppet-network
 puppet-nodejs
+puppet-nginx
 puppet-nsclient
 puppet-puppetboard
 puppet-puppetserver
