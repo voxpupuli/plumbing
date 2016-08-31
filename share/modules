@@ -17,6 +17,7 @@ puppet-gerrit
 puppet-ghost
 puppet-git_resource
 puppet-gluster
+puppet-googleauthenticator
 puppet-graphite_powershell
 puppet-healthcheck
 puppet-hiera
