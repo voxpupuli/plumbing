@@ -6,11 +6,14 @@
 Hi,
 
 I'm Eric, one of the newest members of the Puppet Modules team in Portland, OR. This is my first engineering gig and I'm eager to get involved in the community. 
-I have a short resume comprising of equal parts desktop support and QA.
+I have a short resume comprising of equal parts desktop support and QA but I'm looking forward to adding more and more Developer to it.
 
-I manage a website for a friend on the side:
+I maintain a website or two for friends on the side:
 - [Brilliant Body PDX][bbpdx]
+- [Bells and Hunters][bnh]
 
+If you play the [Kittens](http://www.bloodrizer.ru/games/kittens), I've started a new repo...
+- [eputnam/kittens][kittens]
 
 I've already made contributions to several modules: 
 - [puppetlabs-inifile][inifile]
@@ -37,3 +40,5 @@ pmc_member {
 [vcsrepo]:https://github.com/puppetlabs/puppetlabs-vcsrepo
 [stdlib]:https://github.com/puppetlabs/puppetlabs-stdlib
 [bbpdx]:http://www.brilliantbodypdx.com/
+[bnh]:http://www.bellsandhunters.com/
+[kittens]:http://github.com/eputnam/kittens
