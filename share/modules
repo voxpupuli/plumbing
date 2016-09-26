@@ -43,6 +43,7 @@ puppet-puppetboard
 puppet-puppetserver
 puppet-rhsm
 puppet-rundeck
+puppet-sftp_jail
 puppet-selinux
 puppet-splunk
 puppet-squid
