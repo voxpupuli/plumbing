@@ -36,7 +36,7 @@ I am interested in continuing to help lead this group. If elected:
 
  - I will be a staunch enforcer of our Code of Conduct.
  - I will work to get VoxPupuli inside the Software Freedom
-   Conservancy[conservancy].
+   [Conservancy].
  - I will work to get closer ties with Puppet, Inc. and other FOSS and
    commercial entities.
  - I will work to make the contributions of our members more visible.
@@ -54,4 +54,4 @@ direct-democracy to be used for governance changes.
 [g]:https://github.com/nibalizer
 [t]:https://twitter.com/nibalizer
 [w]:http://spencerkrum.com
-[conservancy]:http://sfconservancy.org/
+[Conservancy]:http://sfconservancy.org/
