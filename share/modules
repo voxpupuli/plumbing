@@ -12,6 +12,7 @@ puppet-download_file
 puppet-drbd
 puppet-etherpad
 puppet-extlib
+puppet-facette
 puppet-fetchcrl
 puppet-filemapper
 puppet-gerrit
