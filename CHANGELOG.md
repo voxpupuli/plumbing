@@ -2,6 +2,7 @@
 
 * Elections ends with 5 PMC members: [@bastelfreak][bastelfreak] [@nibalizer][nibalizer] [@hunner][hunner] [@bbriggs][bbriggs]
   [@dhoppe][dhoppe]. Election officers were [@roidelapluie][roidelapluie] and [@daenney][daenney].
+* New repository: [puppetdb-ruby][puppetdb-ruby]
 
 
 ## September 2016
@@ -214,6 +215,7 @@
 [puppet-windowsfeature]:https://github.com/voxpupuli/puppet-windowsfeature
 [puppet-zabbix]:https://github.com/voxpupuli/puppet-zabbix
 [puppetboard]:https://github.com/voxpupuli/puppetboard
+[puppetdb-ruby]:https://github.com/voxpupuli/puppetdb-ruby
 [pypuppetdb]:https://github.com/voxpupuli/pypuppetdb
 [ra10ke]:https://github.com/voxpupuli/ra10ke
 [roidelapluie]:https://github.com/roidelapluie
