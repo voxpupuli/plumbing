@@ -9,7 +9,21 @@ do various management tasks.
 
 To generate the list of encrypted blobs for puppet forge deployment:
 
-./bin/encrypt_for_travis.sh $forge_password > share/travis_secrets
+./bin/puppet_encrypt_for_travis.sh $forge_password > share/puppet_travis_secrets
+
+To generate the list of encrypted blobs for rubygems deployment:
+
+./bin/rubygems_encrypt_for_travis.sh $rubygems_api_key > share/rubygems_travis_secrets
+
+
+# Setting up a gem for rubygems deploys
+
+Add the voxpupuli rubygems account to the owners list of the gem.
+
+
+```
+gem owner <gemname> -a krum.spencer+voxpupuli@gmail.com
+```
 
 
 # gpg
