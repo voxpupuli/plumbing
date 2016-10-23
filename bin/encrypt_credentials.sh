@@ -1,8 +1,8 @@
 #!/bin/bash
 
-set -eu
+set -e
 
-rm puppet_credentials.asc
+rm -f puppet_credentials.asc
 
 while read -r recp; do
   echo "--recipient ${recp}"
@@ -10,5 +10,6 @@ while read -r recp; do
   gpg --recv-keys "${recp}"
 done < recipients.txt
 
-gpg --sign --encrypt --armor "${recipients}" puppet_credentials
+set -x
+gpg --sign --encrypt --armor ${recipients} puppet_credentials
 
