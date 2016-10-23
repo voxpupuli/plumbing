@@ -13,4 +13,5 @@ while read -r recp; do
 done < recipients.txt
 
 set -x
-gpg --sign --encrypt --armor "${recipients}" puppet_credentials
+# shellcheck disable=SC2086
+gpg --sign --encrypt --armor ${recipients} puppet_credentials
