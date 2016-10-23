@@ -1,8 +1,10 @@
 #!/bin/bash
 
-set -e
+set -eu
 
 rm -f puppet_credentials.asc
+
+recipients=''
 
 while read -r recp; do
   echo "--recipient ${recp}"
@@ -11,5 +13,5 @@ while read -r recp; do
 done < recipients.txt
 
 set -x
+# shellcheck disable=SC2086
 gpg --sign --encrypt --armor ${recipients} puppet_credentials
-
