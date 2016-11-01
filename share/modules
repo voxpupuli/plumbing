@@ -45,6 +45,7 @@ puppet-puppetboard
 puppet-puppetserver
 puppet-rhsm
 puppet-rundeck
+puppet-r10k
 puppet-sftp_jail
 puppet-selinux
 puppet-splunk
