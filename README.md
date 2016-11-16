@@ -1,19 +1,23 @@
-# plumbing
+# Plumbing
 
 This module contains utility scripts for voxpupuli admins to
 do various management tasks.
 
 
 
-# travis secrets
+# Travis secrets
 
 To generate the list of encrypted blobs for puppet forge deployment:
 
+```
 ./bin/puppet_encrypt_for_travis.sh $forge_password > share/puppet_travis_secrets
+```
 
 To generate the list of encrypted blobs for rubygems deployment:
 
+```
 ./bin/rubygems_encrypt_for_travis.sh $rubygems_api_key > share/rubygems_travis_secrets
+```
 
 
 # Setting up a gem for rubygems deploys
@@ -51,8 +55,10 @@ contains the labels to be synced
 
 To sync a repository:
 
+```
 npm install -g github-label-sync
 github-label-sync -a <GitHub token> <repository>
+```
 
 You can use -d for a dryrun to see what will be added and removed.
 
