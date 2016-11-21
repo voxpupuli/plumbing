@@ -48,6 +48,7 @@ puppet-rundeck
 puppet-r10k
 puppet-sftp_jail
 puppet-selinux
+puppet-smokeping
 puppet-splunk
 puppet-squid
 puppet-sslcert
