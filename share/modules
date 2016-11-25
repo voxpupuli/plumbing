@@ -52,7 +52,7 @@ puppet-selinux
 puppet-smokeping
 puppet-splunk
 puppet-squid
-puppet-sslcert
+puppet-sslcertificate
 puppet-staging
 puppet-stash
 puppet-tea
