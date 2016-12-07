@@ -21,6 +21,7 @@ puppet-ghost
 puppet-git_resource
 puppet-gluster
 puppet-googleauthenticator
+puppet-grafana
 puppet-graphite_powershell
 puppet-healthcheck
 puppet-hiera
@@ -44,11 +45,11 @@ puppet-nsclient
 puppet-php
 puppet-puppetboard
 puppet-puppetserver
+puppet-r10k
 puppet-rhsm
 puppet-rundeck
-puppet-r10k
-puppet-sftp_jail
 puppet-selinux
+puppet-sftp_jail
 puppet-smokeping
 puppet-splunk
 puppet-squid
@@ -60,9 +61,9 @@ puppet-unattended_upgrades
 puppet-visualstudio
 puppet-windows_autoupdate
 puppet-windows_eventlog
-puppet-windowsfeature
 puppet-windows_firewall
 puppet-windows_power
+puppet-windowsfeature
 puppet-yum
 puppet-zabbix
 voxpupuli-release-gem

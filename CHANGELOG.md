@@ -1,3 +1,7 @@
+## November 2016
+
+* New Puppet modules: [puppet-grafana][puppet-grafana]
+
 ## October 2016
 
 * Elections ends with 5 PMC members: [@bastelfreak][bastelfreak] [@nibalizer][nibalizer] [@hunner][hunner] [@bbriggs][bbriggs]
@@ -168,6 +172,7 @@
 [puppet-ghost]:https://github.com/voxpupuli/puppet-ghost
 [puppet-gluster]:https://github.com/voxpupuli/puppet-gluster
 [puppet-googleauthenticator]:https://github.com/voxpupuli/puppet-googleauthenticator
+[puppet-grafana]:https://github.com/voxpupuli/puppet-grafana
 [puppet-graphite_powershell]:https://github.com/voxpupuli/puppet-graphite_powershell
 [puppet-hiera]:https://github.com/voxpupuli/puppet-hiera
 [puppet-iis]:https://github.com/voxpupuli/puppet-iis
