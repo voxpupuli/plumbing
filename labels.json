@@ -47,6 +47,13 @@
     ]
   },
   {
+    "name": "modulesync",
+    "color": "fbca04",
+    "aliases": [
+      "msync"
+    ]
+  },
+  {
     "name": "needs-docs",
     "color": "006b75",
     "aliases": [
