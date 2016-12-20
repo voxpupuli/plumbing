@@ -30,6 +30,7 @@ puppet-jenkins_job_builder
 puppet-jira
 puppet-jolokia
 puppet-kafka
+puppet-letsencrypt
 puppet-make
 puppet-mcollective
 puppet-minecraft
@@ -58,6 +59,7 @@ puppet-staging
 puppet-stash
 puppet-tea
 puppet-unattended_upgrades
+puppet-virtualbox
 puppet-visualstudio
 puppet-windows-env
 puppet-windows_autoupdate
