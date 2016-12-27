@@ -44,6 +44,7 @@ puppet-nginx
 puppet-nodejs
 puppet-nsclient
 puppet-php
+puppet-prometheus
 puppet-puppetboard
 puppet-puppetserver
 puppet-r10k
