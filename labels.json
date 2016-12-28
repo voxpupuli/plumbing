@@ -1,135 +1,316 @@
 [
   {
-    "name": "backwards-incompatible",
-    "color": "eb6420",
+    "name": "support",
+    "description": "Issue with a support-like question",
+    "color": "ebefc9",
     "aliases": [
-      "backwards-incompatible",
-      "breaking"
+      "support",
+      "question"
     ]
   },
   {
-    "name": "beginner-friendly",
-    "color": "d4c5f9",
+    "name": "new functionality request",
+    "description": "Issue with a request to add functionality",
+    "color": "006b75",
     "aliases": [
-      "beginner",
-      "beginner friendly"
+      "new functionality request",
+      "enhancement",
+      "feature"
     ]
   },
   {
-    "name": "bug",
+    "name": "bug report",
+    "description": "Issue raised reporting a potential bug",
+    "color": "f7c6c7",
+    "aliases": [
+      "bug report",
+      "bug"
+    ]
+  },
+  {
+    "name": "bug fix",
+    "description": "Pull Request raised fixing a potential bug",
     "color": "0e8a16",
     "aliases": [
-      "bug",
+      "bug fix",
       "bugfix"
     ]
   },
   {
     "name": "docs",
-    "color": "006b75",
+    "description": "Any Issue/Pull Request that related to documentation",
+    "color": "fef2c0",
     "aliases": [
       "docs",
       "documentation"
     ]
   },
   {
-    "name": "duplicate",
+    "name": "technical-debt",
+    "description": "Any Issue that raises changes that should be done, and any Pull Request that does them",
+    "color": "c7def8",
+    "aliases": [
+      "technical-debt",
+      "debt"
+    ]
+  },
+  {
+    "name": "status: needs more information",
+    "description": "An Issue reporting a potential bug that needs more detail in order to help reproduce it",
+    "color": "c6a49a",
+    "aliases": [
+      "status: needs more information",
+      "needs more information",
+      "needs-more-info"
+    ]
+  },
+  {
+    "name": "resolution: can't reproduce",
+    "description": "An Issue reporting a bug that cannot be reproduced",
+    "color": "0052cc",
+    "aliases": [
+      "resolution: can't reproduce",
+      "non-reproducible"
+    ]
+  },
+  {
+    "name": "resolution: duplicate",
+    "description": "An Issue raised that has already been reported",
     "color": "cccccc",
     "aliases": [
+      "resolution: duplicate",
       "duplicate"
     ]
   },
   {
-    "name": "enhancement",
-    "color": "0052cc",
+    "name": "resolution: fixed",
+    "description": "An Issue that has been fixed by a Pull Request",
+    "color": "d4c5f9",
     "aliases": [
-      "enhancement",
+      "resolution: fixed"
+    ]
+  },
+  {
+    "name": "resolution: invalid",
+    "description": "An Issue that is determined to not be related to this project",
+    "color": "e6e6e6",
+    "aliases": [
+      "resolution: invalid",
+      "invalid"
+    ]
+  },
+  {
+    "name": "resolution: won't fix",
+    "description": "An Issue reporting behaviour that is not intended to be changed in the future",
+    "color": "ffffff",
+    "aliases": [
+      "resolution: won't fix",
+      "wont-fix",
+      "wontfix",
+      "wont-fix",
+      "won't-fix"
+    ]
+  },
+  {
+    "name": "resolution: works as expected",
+    "description": "An Issue reporting a bug that is actually normal behaviour",
+    "color": "207de5",
+    "aliases": [
+      "resolution: works as expected",
+      "not-a-bug"
+    ]
+  },
+  {
+    "name": "keep open",
+    "description": "An Issue or Pull Request that should be kept open",
+    "color": "fbca04",
+    "aliases": [
+      "keep open",
+      "leave-open"
+    ]
+  },
+  {
+    "name": "for new contributors",
+    "description": "An Issue raising a need for changes, that should be relatively easy to do",
+    "color": "02d7e1",
+    "aliases": [
+      "for new contributors",
+      "beginner",
+      "beginner-friendly",
+      "beginner friendly"
+    ]
+  },
+  {
+    "name": "status: confirmed",
+    "description": "An Issue reporting a bug that is confirmed to affect other users",
+    "color": "c2e0c6",
+    "aliases": [
+      "status: confirmed",
+      "confirmed"
+    ]
+  },
+  {
+    "name": "status: unconfirmed",
+    "description": "An Issue reporting a potential bug that is yet to be confirmed by other users",
+    "color": "fef2c0",
+    "aliases": [
+      "status: unconfirmed",
+      "unconfirmed"
+    ]
+  },
+  {
+    "name": "security",
+    "description": "Any Issue or Pull Request that directly relates to security",
+    "color": "ff1d21",
+    "aliases": [
+      "security"
+    ]
+  },
+  {
+    "name": "type: chore",
+    "description": "A Pull Request that is raised as part of routine module maintenance",
+    "color": "e7ed39",
+    "aliases": [
+      "type: chore",
+      "chore",
+      "modulesync"
+    ]
+  },
+  {
+    "name": "type: feature",
+    "description": "A Pull Request raised that adds completely new functionality",
+    "color": "c7def8",
+    "aliases": [
+      "type: feature",
       "feature"
     ]
   },
   {
-    "name": "modulesync",
-    "color": "fbca04",
+    "name": "type: enhancement",
+    "description": "A Pull Request raised that enhances existing functionality",
+    "color": "84b6eb",
     "aliases": [
-      "msync"
+      "type: enhancement",
+      "enhancement"
     ]
   },
   {
-    "name": "needs-docs",
-    "color": "006b75",
+    "name": "type: refactor",
+    "description": "A Pull Request raised that involves a large number of changes to module design",
+    "color": "eb6420",
     "aliases": [
+      "type: refactor",
+      "refactor"
+    ]
+  },
+  {
+    "name": "type: test",
+    "description": "A Pull Request raised that adds one or more tests",
+    "color": "bfe5Bf",
+    "aliases": [
+      "type: test",
+      "test"
+    ]
+  },
+  {
+    "name": "type: deprecation",
+    "description": "A Pull Request raised that deprecates existing functionality",
+    "color": "eb6420",
+    "aliases": [
+      "type: deprecation"
+    ]
+  },
+  {
+    "name": "needs: docs",
+    "description": "A Pull Request raised that needs associated documentation changes",
+    "color": "5319e7",
+    "aliases": [
+      "needs: docs",
       "needs-docs"
     ]
   },
   {
-    "name": "needs-feedback",
-    "color": "5319e7",
+    "name": "needs: feedback",
+    "description": "A Pull Request raised that should be discussed and reviewed by others due to the type of change",
+    "color": "bfdadc",
     "aliases": [
-      "feedback",
-      "needs-feedback"
+      "needs: feedback",
+      "needs-feedback",
+      "feedback"
     ]
   },
   {
-    "name": "needs-help",
-    "color": "d4c5f9",
-    "aliases": [
-      "help",
-      "help wanted",
-      "needs-help"
-    ]
-  },
-  {
-    "name": "needs-rebase",
-    "color": "207de5",
-    "aliases": [
-      "needs-rebase",
-      "rebase"
-    ]
-  },
-  {
-    "name": "needs-squash",
-    "color": "c2e0c6",
-    "aliases": [
-      "needs-squash",
-      "squash"
-    ]
-  },
-  {
-    "name": "needs-tests",
-    "color": "f7c6c7",
-    "aliases": [
-      "needs-tests",
-      "tests"
-    ]
-  },
-  {
-    "name": "needs-work",
+    "name": "needs: review",
+    "description": "A Pull Request that should have more than one reviewer approve before merging",
     "color": "fbca04",
     "aliases": [
+      "needs: review",
+      "review"
+    ]
+  },
+  {
+    "name": "needs: work",
+    "description": "A Pull Request that should not be merged yet, due to feedback needing to be addressed, or more work being performed",
+    "color": "fbca04",
+    "aliases": [
+      "needs: work",
       "in progress",
       "needs-work"
     ]
   },
   {
-    "name": "question",
-    "color": "bfd4f2",
-    "aliases": [
-      "question"
-    ]
-  },
-  {
-    "name": "tests-fail",
+    "name": "needs: breaking change",
+    "description": "A Pull Request raised changes the interface in a way that is not backwards-compatible",
     "color": "e11d21",
     "aliases": [
-      "tests-fail"
+      "needs: breaking change",
+      "backwards-incompatible",
+      "breaking"
     ]
   },
   {
-    "name": "wont-fix",
-    "color": "000000",
+    "name": "needs: rebase",
+    "description": "A Pull Request that needs a git rebase",
+    "color": "bdbdbd",
     "aliases": [
-      "wontfix",
-      "wont-fix",
-      "won't-fix"
+      "needs: rebase",
+      "needs-rebase",
+      "rebase"
+    ]
+  },
+  {
+    "name": "needs: tests",
+    "description": "A Pull Request should also be providing matching tests or test changes",
+    "color": "fad8c7",
+    "aliases": [
+      "needs: tests",
+      "needs-tests"
+    ]
+  },
+  {
+    "name": "do not merge",
+    "description": "A Pull Request that the author requests not be merged right now",
+    "color": "e11d21",
+    "aliases": [
+      "do not merge"
+    ]
+  },
+  {
+    "name": "help wanted",
+    "description": "A Pull Request that could do with assistance to complete",
+    "color": "006b75",
+    "aliases": [
+      "help wanted",
+      "help",
+      "needs-help"
+    ]
+  },
+  {
+    "name": "stale",
+    "description": "A Pull Request or Issue that has had no activity for some time",
+    "color": "795548",
+    "aliases": [
+      "stale"
     ]
   }
 ]
