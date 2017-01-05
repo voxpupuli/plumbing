@@ -10,7 +10,7 @@ do various management tasks.
 To generate the list of encrypted blobs for puppet forge deployment:
 
 ```
-./bin/puppet_encrypt_for_travis.sh $forge_password > share/puppet_travis_secrets
+./bin/puppet_encrypt_for_travis.sh $forge_password > share/travis_secrets
 ```
 
 To generate the list of encrypted blobs for rubygems deployment:
