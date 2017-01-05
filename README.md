@@ -9,13 +9,13 @@ do various management tasks.
 
 To generate the list of encrypted blobs for puppet forge deployment:
 
-```
+```bash
 ./bin/puppet_encrypt_for_travis.sh $forge_password > share/travis_secrets
 ```
 
 To generate the list of encrypted blobs for rubygems deployment:
 
-```
+```bash
 ./bin/rubygems_encrypt_for_travis.sh $rubygems_api_key > share/rubygems_travis_secrets
 ```
 
@@ -25,7 +25,7 @@ To generate the list of encrypted blobs for rubygems deployment:
 Add the voxpupuli rubygems account to the owners list of the gem.
 
 
-```
+```bash
 gem owner <gemname> -a krum.spencer+voxpupuli@gmail.com
 ```
 
@@ -35,7 +35,7 @@ gem owner <gemname> -a krum.spencer+voxpupuli@gmail.com
 to decrypt:
 
 
-```
+```bash
 ./bin/decrypt_credentials.sh
 ```
 
@@ -43,7 +43,7 @@ to decrypt:
 to encrypt:
 
 
-```
+```bash
 ./bin/encrypt_credentials.sh
 ```
 
@@ -55,7 +55,7 @@ contains the labels to be synced
 
 To sync a repository:
 
-```
+```bash
 npm install -g github-label-sync
 github-label-sync -a <GitHub token> <repository>
 ```
