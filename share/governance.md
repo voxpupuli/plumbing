@@ -29,21 +29,21 @@ Users who continue to engage with the project and its community will often find 
 
 
 
-Collaborators
+Contributors
 -------------
 
 *How to become one*: Submit a pull request to a Vox Pupuli project
 
-Collaborators are community members who submit patches or other contributions(art, docs, user support, etc) to the project. These patches may be a one-time occurrence or occur over time. It is anticipated that collaborators' contributions may be small at first, growing more considerable once the collaborator has built up the necessary knowledge, experience, and confidence.
+Contributors are community members who submit patches or other contributions(art, docs, user support, etc) to the project. These patches may be a one-time occurrence or occur over time. It is anticipated that contributions may be small at first, growing more considerable once the contributor has built up the necessary knowledge, experience, and confidence.
 
 
 
-Contributors
+Collaborators
 ------------
 
-*How to become one*: Be a collaborator and be nominated to the PMC as a contributor. Nominations should be sent to <email address for nominations>. You may nominate yourself. It is also common to give contributor status to an individual who donates code to the project by migrating a repository to the github namespace.
+*How to become one*: Be a contributor and be nominated to the PMC as a collaborator. Nominations should be sent to <email address for nominations>. You may nominate yourself. It is also common to give collaborator status to an individual who donates code to the project by migrating a repository to the github namespace.
 
-Contributors are collaborators who have shown wide dedication to the Vox Pupuli project in general or deep dedication to one project in particular, and the ability to work well with collaborators, users, and other contributors. The contributors have responsibilities beyond the collaborators. In particular, contributors formally decide on whether a pull request is merged or a release is cut. Contributors are recognized and valued for their contributions, in whatever form those contributions take. Tasks such as communication, documentation, art, packaging, and testing are all valued contributions. A contributor will use lazy consensus to decide on whether to merge a pull request from a collaborator. If the discussion is no longer moving towards a consensus, the PMC must vote via lazy consensus on whether the patch should be applied.
+Collaborators are contributors who have shown wide dedication to the Vox Pupuli project in general or deep dedication to one project in particular, and the ability to work well with contributors and other users. The collaborators have responsibilities beyond the contributors. In particular, collaborators formally decide on whether a pull request is merged or a release is cut. Collaborators are recognized and valued for their contributions, in whatever form those contributions take. Tasks such as communication, documentation, art, packaging, and testing are all valued contributions. A collaborator will use lazy consensus to decide on whether to merge a pull request from a contributor. If the discussion is no longer moving towards a consensus, the PMC must vote via lazy consensus on whether the patch should be applied.
 
 
 
@@ -53,7 +53,7 @@ Project Management Committee (PMC)
 *How to become one*: Win in the yearly election.
 
 
-The project management committee has responsibilities beyond contributors that include participating in strategic planning, release planning and approving changes to the governance model. One of the most important duties is to uphold the community code of [conduct](https://voxpupuli.org/coc/) and ensure its values. The PMC has to make decisions when community consensus cannot be reached.
+The project management committee has responsibilities beyond collaborators that include participating in strategic planning, release planning and approving changes to the governance model. One of the most important duties is to uphold the community code of [conduct](https://voxpupuli.org/coc/) and ensure its values. The PMC has to make decisions when community consensus cannot be reached.
 
 The PMC has final say over who can become a committer and will use lazy consensus for approval. Discussion over committer nominations will be done in private.
 
