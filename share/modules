@@ -26,6 +26,7 @@ puppet-grafana
 puppet-graphite_powershell
 puppet-healthcheck
 puppet-hiera
+puppet-homeassistant
 puppet-iis
 puppet-jenkins_job_builder
 puppet-jira
