@@ -36,6 +36,7 @@ puppet-letsencrypt
 puppet-make
 puppet-mcollective
 puppet-minecraft
+puppet-misp
 puppet-mrepo
 puppet-msoffice
 puppet-mumble
