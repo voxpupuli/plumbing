@@ -49,6 +49,7 @@ puppet-nsclient
 puppet-php
 puppet-proxysql
 puppet-prometheus
+puppet-prometheus_reporter
 puppet-puppetboard
 puppet-puppetserver
 puppet-r10k
