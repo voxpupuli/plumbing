@@ -96,7 +96,8 @@ PMC Removal
 
 A member of the PMC can be removed before the end of their 1 year term by a supermajority (2/3) vote of the PMC. This can happen for a number of reasons, but the expected reason is following a Code of Conduct violation incident. Any report of problematic behaviour of PMC members will trigger an investigation and can trigger a vote. A report of the incident and actions taken (if any) will be published for the public. A member of the PMC can step down at any time.
 
-If a vacancy is left on the PMC, the PMC can optionally instruct the elections officer to perform another election or wait until the next election cycle.
+If a vacancy is left on the PMC, the PMC can optionally instruct the elections officer to perform another election, wait until the next election cycle, or use the results of the previous election to select a new member, if the previous election is recent enough.
+
 
 
 Transparency
