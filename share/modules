@@ -77,4 +77,5 @@ puppet-windows_power
 puppet-windowsfeature
 puppet-yum
 puppet-zabbix
+puppet-zypprepo
 voxpupuli-release-gem
