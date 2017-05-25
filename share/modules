@@ -33,6 +33,7 @@ puppet-jira
 puppet-jolokia
 puppet-kafka
 puppet-letsencrypt
+puppet-logrotate
 puppet-make
 puppet-mcollective
 puppet-minecraft
