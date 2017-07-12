@@ -63,6 +63,7 @@ puppet-sftp_jail
 puppet-smokeping
 puppet-splunk
 puppet-squid
+puppet-ssh_keygen
 puppet-sslcertificate
 puppet-staging
 puppet-stash
