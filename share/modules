@@ -55,6 +55,7 @@ puppet-prometheus_reporter
 puppet-puppetboard
 puppet-puppetserver
 puppet-r10k
+puppet-rabbitmq
 puppet-report_hipchat
 puppet-rhsm
 puppet-rundeck
