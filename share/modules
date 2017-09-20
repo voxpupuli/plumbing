@@ -4,6 +4,7 @@ puppet-archive
 puppet-autofs
 puppet-bacula
 puppet-boolean
+puppet-cassandra
 puppet-collectd
 puppet-community_kickstarts
 puppet-confluence
