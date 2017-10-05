@@ -49,6 +49,7 @@ puppet-nginx
 puppet-nodejs
 puppet-nsclient
 puppet-nscd
+puppet-openvpn
 puppet-php
 puppet-proxysql
 puppet-prometheus
