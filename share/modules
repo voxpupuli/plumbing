@@ -42,7 +42,6 @@ puppet-mrepo
 puppet-msoffice
 puppet-mumble
 puppet-mysql_java_connector
-puppet-nagios_providers
 puppet-network
 puppet-nginx
 puppet-nodejs
