@@ -30,7 +30,7 @@ I spend a large portion of time, even at work, to Vox Pupuli and would like to m
 [pd]:https://github.com/voxpupuli/puppet_webhook/graphs/contributors
 [sd]:https://github.com/voxpupuli/puppet-rsyslog/graphs/contributors
 [pdb]:https://github.com/voxpupuli/puppetdb-ruby/graphs/contributors
-[bl]:https://moduletux.com
+[bl]:https://www.moduletux.com
 [g]:https://github.com/dhollinger
 [t]:https://twitter.com/moduletux
-[w]:https://moduletux.com
+[w]:https://www.moduletux.com
