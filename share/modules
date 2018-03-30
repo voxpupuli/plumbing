@@ -20,6 +20,7 @@ puppet-drbd
 puppet-dropbear
 puppet-etherpad
 puppet-extlib
+puppet-fail2ban
 puppet-facette
 puppet-ferm
 puppet-fetchcrl
