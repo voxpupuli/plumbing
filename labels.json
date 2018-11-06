@@ -140,5 +140,12 @@
     "aliases": [
       "changelog"
     ]
+  },
+  {
+    "name": "release-summary",
+    "color": "bfdadc",
+    "aliases": [
+      "release-summary"
+    ]
   }
 ]
