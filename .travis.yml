@@ -6,3 +6,8 @@ script:
   - ./build/build.sh
 notifications:
   email: false
+  irc:
+    on_success: always
+    on_failure: always
+    channels:
+      - "chat.freenode.org#voxpupuli-notifications"
