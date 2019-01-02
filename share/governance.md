@@ -61,7 +61,7 @@ Membership of the PMC is by election. [Condorcet](https://en.wikipedia.org/wiki/
 
 The PMC doesn't have specific roles or a chairperson.
 
-
+At the moment, IRC is our main communication channel. PMC members should be present in our `#voxpupuli-pmc` channel on freenode. Also we have some gpg-encrypted credentials and a few repositories require gpg-signed commits, so a PMC member also needs a gpg key.
 
 Specialized Roles
 -----------------
