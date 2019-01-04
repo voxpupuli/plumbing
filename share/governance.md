@@ -41,7 +41,7 @@ Contributors are community members who submit patches or other contributions(art
 Collaborators
 ------------
 
-*How to become one*: Be a contributor and be nominated to the PMC as a collaborator. Nominations should be sent to <email address for nominations>. You may nominate yourself. It is also common to give collaborator status to an individual who donates code to the project by migrating a repository to the github namespace.
+*How to become one*: Be a contributor and be nominated to the PMC as a collaborator. Nominations should be sent to [pmc@voxpupuli.org](mailto:pmc@voxpupuli.org). You may nominate yourself. It is also common to give collaborator status to an individual who donates code to the project by migrating a repository to the github namespace. Also the PMC can approach contributors and ask them if they are interested in becoming a collaborator.
 
 Collaborators are contributors who have shown wide dedication to the Vox Pupuli project in general or deep dedication to one project in particular, and the ability to work well with contributors and other users. The collaborators have responsibilities beyond the contributors. In particular, collaborators formally decide on whether a pull request is merged or a release is cut. Collaborators are recognized and valued for their contributions, in whatever form those contributions take. Tasks such as communication, documentation, art, packaging, and testing are all valued contributions. A collaborator will use lazy consensus to decide on whether to merge a pull request from a contributor. If the discussion is no longer moving towards a consensus, the PMC must vote via lazy consensus on whether the patch should be applied.
 
