@@ -56,3 +56,9 @@ You can use -d for a dryrun to see what will be added and removed.
 ## Syntax Validation
 
 We use <https://github.com/caarlos0/shell-ci-build> as a submodule in travis. This enables shellcheck and validates all \*,sh files. We probably should update it from time to time.
+
+## Contribution
+
+We currently require all commits in this repo to be signed with gpg, so please
+configure your git client properly. Let us know if you need some help. We're
+also reachable via our IRC channel `#voxpupuli` on freenode.￼
