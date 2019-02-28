@@ -64,6 +64,7 @@ puppet-nodejs
 puppet-nrpe
 puppet-nscd
 puppet-nsclient
+puppet-openvmtools
 puppet-openvpn
 puppet-php
 puppet-posix_acl
