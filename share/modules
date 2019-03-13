@@ -44,6 +44,7 @@ puppet-jenkins_job_builder
 puppet-jira
 puppet-jolokia
 puppet-kafka
+puppet-keepalived
 puppet-letsencrypt
 puppet-lldpd
 puppet-logrotate
@@ -76,6 +77,7 @@ puppet-puppetwebhook
 puppet-python
 puppet-r10k
 puppet-rabbitmq
+puppet-redis
 puppet-report_hipchat
 puppet-rhsm
 puppet-rsyslog
