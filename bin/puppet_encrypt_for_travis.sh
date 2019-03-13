@@ -10,8 +10,8 @@ travis_args="--skip-version-check --skip-completion-check --no-interactive"
 
 while read -r line;
 do
-    echo "$line"
-    echo -n "secure: "
+    echo "$line:"
+    echo -n "  secure: "
     # shellcheck disable=SC2086
     travis encrypt $travis_args -r "voxpupuli/$line" "$forge_password"
 done < share/modules
