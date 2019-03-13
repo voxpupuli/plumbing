@@ -14,7 +14,7 @@ To generate the list of encrypted blobs for puppet forge deployment:
 To generate the list of encrypted blobs for rubygems deployment:
 
 ```bash
-./bin/rubygems_encrypt_for_travis.sh $rubygems_api_key > share/rubygems_travis_secrets
+./bin/rubygems_encrypt_for_travis.sh $rubygems_api_key > share/rubygems_travis_secrets.yaml
 ```
 
 ## Setting up a gem for rubygems deploys
