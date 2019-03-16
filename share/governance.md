@@ -1,10 +1,25 @@
 # Vox Pupuli Governance
 
+## ToC
+
+* [Roles and Responsibilities](#roles-and-responsibilities)
+  * [Users](#users)
+  * [Contributors](#contributors)
+  * [Collaborators](#collaborators)
+  * [Project Management Committee (PMC)](#project-management-committee-pmc)
+  * [Specialized Roles](#specialized-roles)
+* [Lazy Consensus](#lazy-consensus)
+* [PMC Removal](#pmc-removal)
+* [Transparency](#transparency)
+* [Election](#election)
+
+---
+
 ## Roles and Responsibilities
 
 In order to have a smoothly running project, formal roles with corresponding responsibilities are established. A member of the community may have multiple roles.
 
-## Users
+### Users
 
 *How to become one*: Use a Vox Pupuli project
 
@@ -19,19 +34,19 @@ Users are community members who have a need for the project. They are the most i
 
 Users who continue to engage with the project and its community will often find themselves becoming more and more involved. Such users may then go on to become collaborators and contributors, as described below.
 
-## Contributors
+### Contributors
 
 *How to become one*: Submit a pull request to a Vox Pupuli project
 
 Contributors are community members who submit patches or other contributions(art, docs, user support, etc) to the project. These patches may be a one-time occurrence or occur over time. It is anticipated that contributions may be small at first, growing more considerable once the contributor has built up the necessary knowledge, experience, and confidence.
 
-## Collaborators
+### Collaborators
 
 *How to become one*: Be a contributor and be nominated to the PMC as a collaborator. Nominations should be sent to [pmc@voxpupuli.org](mailto:pmc@voxpupuli.org). You may nominate yourself. It is also common to give collaborator status to an individual who donates code to the project by migrating a repository to the github namespace. Also the PMC can approach contributors and ask them if they are interested in becoming a collaborator.
 
 Collaborators are contributors who have shown wide dedication to the Vox Pupuli project in general or deep dedication to one project in particular, and the ability to work well with contributors and other users. The collaborators have responsibilities beyond the contributors. In particular, collaborators formally decide on whether a pull request is merged or a release is cut. Collaborators are recognized and valued for their contributions, in whatever form those contributions take. Tasks such as communication, documentation, art, packaging, and testing are all valued contributions. A collaborator will use lazy consensus to decide on whether to merge a pull request from a contributor. If the discussion is no longer moving towards a consensus, the PMC must vote via lazy consensus on whether the patch should be applied.
 
-## Project Management Committee (PMC)
+### Project Management Committee (PMC)
 
 *How to become one*: Win in the yearly election.
 
@@ -45,7 +60,7 @@ The PMC doesn't have specific roles or a chairperson.
 
 At the moment, IRC is our main communication channel. PMC members should be present in our `#voxpupuli-pmc` channel on freenode. Also we have some gpg-encrypted credentials and a few repositories require gpg-signed commits, so a PMC member also needs a gpg key.
 
-## Specialized Roles
+### Specialized Roles
 
 There are three officer roles in VoxPupuli. They can all be held by the same person (though this isn't ideal), as long as the work is getting done. They can have any other role in the organization, including being on the PMC. The PMC is responsible for requesting volunteers and appointing a volunteer to the role. Appointments last until either the officer steps down, or the unlikely and unfortunate situation where the PMC removes the officer. The PMC can add more officer roles as it sees fit by modifying this document.
 
