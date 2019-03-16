@@ -7,6 +7,7 @@
   * [Contributors](#contributors)
   * [Collaborators](#collaborators)
   * [Project Management Committee (PMC)](#project-management-committee-pmc)
+    * [PMC Onboarding](#pmc-onboarding)
   * [Specialized Roles](#specialized-roles)
 * [Lazy Consensus](#lazy-consensus)
 * [PMC Removal](#pmc-removal)
@@ -59,6 +60,18 @@ Membership of the PMC is by election. [Condorcet](https://en.wikipedia.org/wiki/
 The PMC doesn't have specific roles or a chairperson.
 
 At the moment, IRC is our main communication channel. PMC members should be present in our `#voxpupuli-pmc` channel on freenode. Also we have some gpg-encrypted credentials and a few repositories require gpg-signed commits, so a PMC member also needs a gpg key.
+
+#### PMC Onboarding
+
+After people got elected, they need to be onboarded by a former PMC member:
+
+* Add the new people to the [Project-Maintainers](https://github.com/orgs/voxpupuli/teams/project-maintainers) group on github, remove former PMC members if desired (this role is not exclusively for PMC members)
+* Try to establish a gpg relationship between all PMC members
+* Add new gpg keys to [our plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/recipients.txt) and remove old keys
+* Ensure that everybody can [decrypt and encrypt](https://github.com/voxpupuli/plumbing#gpg) our secrets
+* Add the mail address from all new members to [our pmc@voxpupuli.org](https://app.mailgun.com/app/lists/pmc%40voxpupuli.org) mailing list and remove former members
+* Promote every PMC member to an [owner](https://groups.io/g/voxpupuli/members?p=,mods,,0,0,0,0) for our mailing list
+* Ensure that they have a bouncer in at least `#voxpupuli-pmc`
 
 ### Specialized Roles
 
