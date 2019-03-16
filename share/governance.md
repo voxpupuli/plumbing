@@ -62,7 +62,7 @@ At the moment, IRC is our main communication channel. PMC members should be pres
 
 ### Specialized Roles
 
-There are three officer roles in VoxPupuli. They can all be held by the same person (though this isn't ideal), as long as the work is getting done. They can have any other role in the organization, including being on the PMC. The PMC is responsible for requesting volunteers and appointing a volunteer to the role. Appointments last until either the officer steps down, or the unlikely and unfortunate situation where the PMC removes the officer. The PMC can add more officer roles as it sees fit by modifying this document.
+There are three officer roles in Vox Pupuli. They can all be held by the same person (though this isn't ideal), as long as the work is getting done. They can have any other role in the organization, including being on the PMC. The PMC is responsible for requesting volunteers and appointing a volunteer to the role. Appointments last until either the officer steps down, or the unlikely and unfortunate situation where the PMC removes the officer. The PMC can add more officer roles as it sees fit by modifying this document.
 
 1) Election Officer: The election officer can be on the PMC, as long as they are not running in the election they are officiating
 
