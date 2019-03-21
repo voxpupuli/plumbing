@@ -72,6 +72,8 @@ After people got elected, they need to be onboarded by a former PMC member:
 * Add the mail address from all new members to [our pmc@voxpupuli.org](https://app.mailgun.com/app/lists/pmc%40voxpupuli.org) mailing list and remove former members
 * Promote every PMC member to an [owner](https://groups.io/g/voxpupuli/members?p=,mods,,0,0,0,0) for our mailing list
 * Ensure that they have a bouncer in at least `#voxpupuli-pmc`
+* Configure a [cloak](https://freenode.net/kb/answer/cloaks) if desired (voxpupuli/pmc/$nickname)
+* Add them to the admin list for the `#voxpupuli` IRC channel
 
 ### Specialized Roles
 
