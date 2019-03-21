@@ -74,6 +74,7 @@ After people got elected, they need to be onboarded by a former PMC member:
 * Ensure that they have a bouncer in at least `#voxpupuli-pmc`
 * Configure a [cloak](https://freenode.net/kb/answer/cloaks) if desired (voxpupuli/pmc/$nickname)
 * Add them to the admin list for the `#voxpupuli` IRC channel
+* Suggest joining `#voxpupuli-notifications`
 
 ### Specialized Roles
 
