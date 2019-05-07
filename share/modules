@@ -5,6 +5,7 @@ puppet-appd_db_agent
 puppet-archive
 puppet-autofs
 puppet-bacula
+puppet-bareos
 puppet-bird
 puppet-boolean
 puppet-caddy
