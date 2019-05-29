@@ -69,6 +69,7 @@ puppet-nrpe
 puppet-nscd
 puppet-nsclient
 puppet-openvpn
+puppet-openvmtools
 puppet-php
 puppet-posix_acl
 puppet-prometheus
@@ -106,6 +107,7 @@ puppet-unattended_upgrades
 puppet-vault_lookup
 puppet-virtualbox
 puppet-visualstudio
+puppet-vmwaretools
 puppet-windows_autoupdate
 puppet-windows_env
 puppet-windows_eventlog
