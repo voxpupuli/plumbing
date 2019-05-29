@@ -69,6 +69,7 @@ puppet-nrpe
 puppet-nscd
 puppet-nsclient
 puppet-openvpn
+puppet-openvmtools
 puppet-php
 puppet-posix_acl
 puppet-prometheus
