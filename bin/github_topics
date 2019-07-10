@@ -10,22 +10,22 @@ from base64 import b64decode
 from github import Github
 
 OS_TOPICS = {
-    'Amazon': {'linux-puppet-module'},
-    'Archlinux': {'linux-puppet-module'},
-    'CentOS': {'linux-puppet-module'},
-    'Debian': {'linux-puppet-module'},
-    'Fedora': {'linux-puppet-module'},
-    'FreeBSD': {'bsd-puppet-module'},
-    'Gentoo': {'linux-puppet-module'},
-    'OpenBSD': {'bsd-puppet-module'},
-    'OpenSuSE': {'linux-puppet-module'},
-    'OracleLinux': {'linux-puppet-module'},
-    'RedHat': {'linux-puppet-module'},
-    'SLES': {'linux-puppet-module'},
-    'Scientific': {'linux-puppet-module'},
-    'Ubuntu': {'linux-puppet-module'},
-    'Windows': {'windows-puppet-module'},  # facter returns windows, but various modules use this
-    'windows': {'windows-puppet-module'},
+    'Amazon': {'linux-puppet-module', '-puppet-module'},
+    'Archlinux': {'linux-puppet-module', '-puppet-module'},
+    'CentOS': {'linux-puppet-module', 'centos-puppet-module'},
+    'Debian': {'linux-puppet-module', 'debian-puppet-module'},
+    'Fedora': {'linux-puppet-module', 'fedora-puppet-module'},
+    'FreeBSD': {'bsd-puppet-module', 'freebsd-puppet-module'},
+    'Gentoo': {'linux-puppet-module', 'gentoo-puppet-module'},
+    'OpenBSD': {'bsd-puppet-module', 'openbsd-puppet-module'},
+    'OpenSuSE': {'linux-puppet-module', 'opensuse-puppet-module'},
+    'OracleLinux': {'linux-puppet-module', 'oraclelinux-puppet-module'},
+    'RedHat': {'linux-puppet-module', 'redhat-puppet-module'},
+    'SLES': {'linux-puppet-module', 'sles-puppet-module'},
+    'Scientific': {'linux-puppet-module', 'scientific-puppet-module'},
+    'Ubuntu': {'linux-puppet-module', 'ubuntu-puppet-module'},
+    'Windows': {'windows-puppet-module', 'windows-puppet-module'},  # facter returns windows, but various modules use this
+    'windows': {'windows-puppet-module', 'windows-puppet-module'},
 }
 
 MANAGED_TOPICS = set()
