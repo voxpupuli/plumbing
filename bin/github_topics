@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+
+import json
+import logging
+import os
+from argparse import ArgumentParser
+from base64 import b64decode
+
+# Need at least PyGithub version 1.43 for topic support
+from github import Github
+
+OS_TOPICS = {
+    'Amazon': {'linux-puppet-module', '-puppet-module'},
+    'Archlinux': {'linux-puppet-module', '-puppet-module'},
+    'CentOS': {'linux-puppet-module', 'centos-puppet-module'},
+    'Debian': {'linux-puppet-module', 'debian-puppet-module'},
+    'Fedora': {'linux-puppet-module', 'fedora-puppet-module'},
+    'FreeBSD': {'bsd-puppet-module', 'freebsd-puppet-module'},
+    'Gentoo': {'linux-puppet-module', 'gentoo-puppet-module'},
+    'OpenBSD': {'bsd-puppet-module', 'openbsd-puppet-module'},
+    'OpenSuSE': {'linux-puppet-module', 'opensuse-puppet-module'},
+    'OracleLinux': {'linux-puppet-module', 'oraclelinux-puppet-module'},
+    'RedHat': {'linux-puppet-module', 'redhat-puppet-module'},
+    'SLES': {'linux-puppet-module', 'sles-puppet-module'},
+    'Scientific': {'linux-puppet-module', 'scientific-puppet-module'},
+    'Ubuntu': {'linux-puppet-module', 'ubuntu-puppet-module'},
+    'Windows': {'windows-puppet-module', 'windows-puppet-module'},  # facter returns windows, but various modules use this
+    'windows': {'windows-puppet-module', 'windows-puppet-module'},
+}
+
+MANAGED_TOPICS = set()
+MANAGED_TOPICS.update(*OS_TOPICS.values())
+
+
+def get_topics_from_metadata(metadata):
+    topics = {'puppet'}
+
+    try:
+        data = json.loads(b64decode(metadata.content))
+    except json.JSONDecodeError:
+        logging.exception('Failed to parse %s', metadata.name)
+    else:
+        for operatingsystem in data.get('operatingsystem_support', []):
+            try:
+                topics.update(OS_TOPICS[operatingsystem['operatingsystem']])
+            except KeyError:
+                pass
+
+    return topics
+
+
+def handle_repository(repository, set_topics):
+    files = {f.name: f for f in repository.get_dir_contents('/')}
+    try:
+        metadata = files['metadata.json']
+    except KeyError:
+        pass
+    else:
+        topics = get_topics_from_metadata(metadata)
+        logging.debug('Repository %s should have %s', repository.name, topics)
+        original_topics = set(repository.get_topics())
+        logging.debug('Repository %s has %s', repository.name, original_topics)
+
+        missing = topics - original_topics
+        if missing:
+            print(f'Repository {repository.name} is missing {missing}')
+
+        extra = (original_topics & MANAGED_TOPICS) - topics
+        if extra:
+            print(f'Repository {repository.name} has extra {extra}')
+
+        if set_topics and (missing or extra):
+            new_topics = (original_topics | missing) - extra
+            print(f'Setting topics for {repository.name} to {new_topics} (was {original_topics})')
+            repository.replace_topics(sorted(new_topics))
+
+
+def update_topics(organization_name, token, set_topics):
+    github = Github(token)
+
+    user = github.get_organization(organization_name)
+
+    for repository in user.get_repos():
+        handle_repository(repository, set_topics)
+
+
+def main():
+    parser = ArgumentParser(description='Set Github repository topics based on repository content')
+    parser.add_argument('--organization', default='voxpupuli', help='Github organization name')
+    parser.add_argument('--set-topics', help='Set topics, otherwise shows what would be done',
+                        action='store_true')
+    parser.add_argument('--verbose', '-v', help='Show debug output', action='store_true')
+
+    args = parser.parse_args()
+
+    log_level = logging.DEBUG if args.verbose else logging.INFO
+    logging.basicConfig(level=log_level)
+
+    try:
+        token = os.environ['GITHUB_TOKEN']
+    except KeyError:
+        raise SystemExit('Set the GITHUB_TOKEN environment variable to a valid Github token')
+
+    try:
+        update_topics(args.organization, token, args.set_topics)
+    except KeyboardInterrupt:
+        pass
+
+
+if __name__ == '__main__':
+    main()
