@@ -77,6 +77,12 @@ consensus to decide on whether to merge a pull request from a contributor. If
 the discussion is no longer moving towards a consensus, the PMC must vote via
 lazy consensus on whether the patch should be applied.
 
+Our release process for modules creates a Git tag that's signed with GPG.
+Therefor collaborators need to [setup GPG](https://help.github.com/en/articles/telling-git-about-your-signing-key)
+on their machine and add the public key to [their GitHub profile](https://help.github.com/en/articles/adding-a-new-gpg-key-to-your-github-account).
+It's also a good advice to sign [every commit](https://help.github.com/en/articles/signing-commits)
+and [tag](https://help.github.com/en/articles/signing-tags) with GPG.
+
 ### Project Management Committee (PMC)
 
 *How to become one*: Win in the yearly election.
