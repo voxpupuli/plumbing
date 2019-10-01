@@ -42,6 +42,7 @@ puppet-graphite_powershell
 puppet-healthcheck
 puppet-hiera
 puppet-iproute2
+puppet-ipset
 puppet-homeassistant
 puppet-jenkins
 puppet-jenkins_job_builder
