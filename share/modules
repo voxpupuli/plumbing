@@ -87,6 +87,7 @@ puppet-rabbitmq
 puppet-redis
 puppet-report_hipchat
 puppet-rhsm
+puppet-rkhunter
 puppet-rsyslog
 puppet-rundeck
 puppet-selinux
