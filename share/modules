@@ -43,6 +43,7 @@ puppet-healthcheck
 puppet-hiera
 puppet-iproute2
 puppet-ipset
+puppet-jail
 puppet-homeassistant
 puppet-jenkins
 puppet-jenkins_job_builder
@@ -71,15 +72,19 @@ puppet-nodejs
 puppet-nrpe
 puppet-nscd
 puppet-nsclient
+puppet-nsd
 puppet-openvpn
 puppet-openvmtools
 puppet-php
+puppet-pkgng
 puppet-posix_acl
+puppet-poudriere
 puppet-prometheus
 puppet-prometheus_reporter
 puppet-proxysql
 puppet-puppetboard
 puppet-puppetserver
+puppet-pxe
 puppet-puppetwebhook
 puppet-python
 puppet-r10k
@@ -109,6 +114,7 @@ puppet-telegraf
 puppet-trusted_ca
 puppet-tvheadend
 puppet-unattended_upgrades
+puppet-unbound
 puppet-vault_lookup
 puppet-virtualbox
 puppet-visualstudio
