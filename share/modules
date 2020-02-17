@@ -23,6 +23,7 @@ puppet-download_file
 puppet-drbd
 puppet-dropbear
 puppet-earlyoom
+puppet-epel
 puppet-etherpad
 puppet-extlib
 puppet-fail2ban
