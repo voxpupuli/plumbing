@@ -137,3 +137,4 @@ puppet-yum
 puppet-zabbix
 puppet-zypprepo
 voxpupuli-release-gem
+puppet-format
