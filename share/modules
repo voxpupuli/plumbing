@@ -42,6 +42,7 @@ puppet-gluster
 puppet-googleauthenticator
 puppet-grafana
 puppet-graphite_powershell
+puppet-groupmembership
 puppet-healthcheck
 puppet-hiera
 puppet-iproute2
