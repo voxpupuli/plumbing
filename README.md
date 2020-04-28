@@ -41,17 +41,14 @@ to encrypt:
 
 ## syncing labels
 
-Syncing labels can be done by using github-label-sync. The labels.json file
-contains the labels to be synced
+In the past we used a nodejs script to sync labels. This feature moved to
+[vox-pupuli-tasks](https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management)
 
-To sync a repository:
+The rails app has a [list of labels](https://github.com/voxpupuli/vox-pupuli-tasks/blob/67d27076e025de2d8336d535da91eac8bb5d667f/config/voxpupuli.yml#L42)
+and ensures that they are configured on our repositories. Just update the yaml
+file to update all labels / their colours or descriptions.
 
-```bash
-npm install -g github-label-sync
-github-label-sync -a <GitHub token> <repository>
-```
-
-You can use -d for a dryrun to see what will be added and removed.
+The feature is documented in the [application](https://github.com/voxpupuli/vox-pupuli-tasks#sync-github-labels).
 
 ## Syntax Validation
 
