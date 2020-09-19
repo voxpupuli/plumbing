@@ -46,11 +46,12 @@ puppet-grafana
 puppet-graphite_powershell
 puppet-groupmembership
 puppet-healthcheck
+puppet-homeassistant
 puppet-hiera
+puppet-hyperglass
 puppet-iproute2
 puppet-ipset
 puppet-jail
-puppet-homeassistant
 puppet-jenkins
 puppet-jenkins_job_builder
 puppet-jira
