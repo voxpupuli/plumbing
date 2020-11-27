@@ -3,20 +3,6 @@
 This module contains utility scripts for voxpupuli admins to
 do various management tasks.
 
-## Travis secrets
-
-To generate the list of encrypted blobs for puppet forge deployment:
-
-```bash
-./bin/puppet_encrypt_for_travis.sh $forge_password > share/travis_secrets
-```
-
-To generate the list of encrypted blobs for rubygems deployment:
-
-```bash
-./bin/rubygems_encrypt_for_travis.sh $rubygems_api_key > share/rubygems_travis_secrets.yaml
-```
-
 ## Setting up a gem for rubygems deploys
 
 Add the voxpupuli rubygems account to the owners list of the gem.
@@ -24,6 +10,10 @@ Add the voxpupuli rubygems account to the owners list of the gem.
 ```bash
 gem owner <gemname> -a krum.spencer+voxpupuli@gmail.com
 ```
+
+## Github Actions secrets
+
+The secrets for the Puppet Forge and Rubygems are set via [organization secrets](https://github.com/organizations/voxpupuli/settings/secrets/actions). This means they only need to be set once.
 
 ## gpg
 
