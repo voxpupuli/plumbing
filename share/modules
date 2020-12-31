@@ -78,6 +78,7 @@ puppet-mysql_java_connector
 puppet-network
 puppet-nginx
 puppet-nodejs
+puppet-nomad
 puppet-nrpe
 puppet-nscd
 puppet-nsclient
