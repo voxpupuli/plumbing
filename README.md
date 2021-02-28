@@ -8,7 +8,7 @@ do various management tasks.
 Add the voxpupuli rubygems account to the owners list of the gem.
 
 ```bash
-gem owner <gemname> -a krum.spencer+voxpupuli@gmail.com
+gem owner <gemname> -a pmc@voxpupuli.org
 ```
 
 ## Github Actions secrets
