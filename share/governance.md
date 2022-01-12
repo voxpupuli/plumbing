@@ -106,9 +106,9 @@ election. There are 5 members of the PMC. Terms are 1 year.
 The PMC doesn't have specific roles or a chairperson.
 
 At the moment, IRC is our main communication channel. PMC members should be
-present in our `#voxpupuli-pmc` channel on freenode. Also we have some
-gpg-encrypted credentials and a few repositories require gpg-signed commits, so
-a PMC member also needs a gpg key.
+present in our `#voxpupuli-pmc` channel on [libera.chat](https://libera.chat).
+Also we have some gpg-encrypted credentials and a few repositories require
+gpg-signed commits, so a PMC member also needs a gpg key.
 
 #### PMC Onboarding
 
@@ -121,7 +121,7 @@ After people got elected, they need to be onboarded by a former PMC member:
 * Add the mail address from all new members to [our pmc@voxpupuli.org](https://app.mailgun.com/app/lists/pmc%40voxpupuli.org) mailing list and remove former members
 * Promote every PMC member to an [owner](https://groups.io/g/voxpupuli/members?p=,mods,,0,0,0,0) for our mailing list
 * Ensure that they have a bouncer in at least `#voxpupuli-pmc`
-* Configure a [cloak](https://freenode.net/kb/answer/cloaks) if desired (voxpupuli/pmc/$nickname)
+* Configure a [cloak](https://libera.chat/guides/cloaks) if desired (voxpupuli/pmc/$nickname)
 * Add them to the admin list for the `#voxpupuli` IRC channel
 * Suggest joining `#voxpupuli-notifications`
 
