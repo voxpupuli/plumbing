@@ -40,10 +40,6 @@ file to update all labels / their colours or descriptions.
 
 The feature is documented in the [application](https://github.com/voxpupuli/vox-pupuli-tasks#sync-github-labels).
 
-## Syntax Validation
-
-We use <https://github.com/caarlos0/shell-ci-build> as a submodule in travis. This enables shellcheck and validates all \*,sh files. We probably should update it from time to time.
-
 ## Contribution
 
 We currently require all commits in this repo to be signed with gpg, so please
