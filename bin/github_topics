@@ -10,8 +10,8 @@ from base64 import b64decode
 from github import Github
 
 OS_TOPICS = {
-    'Amazon': {'linux-puppet-module', '-puppet-module'},
-    'Archlinux': {'linux-puppet-module', '-puppet-module'},
+    'Amazon': {'linux-puppet-module', 'amazon-puppet-module'},
+    'Archlinux': {'linux-puppet-module', 'archlinux-puppet-module'},
     'CentOS': {'linux-puppet-module', 'centos-puppet-module'},
     'Debian': {'linux-puppet-module', 'debian-puppet-module'},
     'Fedora': {'linux-puppet-module', 'fedora-puppet-module'},
@@ -50,7 +50,7 @@ def get_topics_from_metadata(metadata):
 
 
 def handle_repository(repository, set_topics):
-    files = {f.name: f for f in repository.get_dir_contents('/')}
+    files = {f.name: f for f in repository.get_contents('/')}
     try:
         metadata = files['metadata.json']
     except KeyError:
@@ -80,8 +80,9 @@ def update_topics(organization_name, token, set_topics):
 
     user = github.get_organization(organization_name)
 
-    for repository in user.get_repos():
-        handle_repository(repository, set_topics)
+    for repository in sorted(user.get_repos(), key=lambda repository: repository.name):
+        if not repository.archived:
+            handle_repository(repository, set_topics)
 
 
 def main():
