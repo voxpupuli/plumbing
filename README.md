@@ -29,6 +29,32 @@ to encrypt:
 ./bin/encrypt_credentials.sh
 ```
 
+## Repository topics
+
+### Hacktoberfest
+
+Hacktoberfest wants to have the `hacktoberfest` topic applied to a repository before it counts. To see what's missing:
+```bash
+./bin/hacktoberfest
+```
+
+Then to actually run:
+```bash
+./bin/hacktoberfest --set-topics
+```
+
+### Metadata-based topics
+
+There are labels such as `linux-puppet-module`, `bsd-puppet-module` and `windows-puppet-module` that can be set based on metadata. To see what would be done:
+```bash
+./bin/github_topics
+```
+
+Then to actually run:
+```bash
+./bin/github_topics --set-topics
+```
+
 ## syncing labels
 
 In the past we used a nodejs script to sync labels. This feature moved to
