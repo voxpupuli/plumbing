@@ -43,6 +43,18 @@ Then to actually run:
 ./bin/hacktoberfest --set-topics
 ```
 
+### Metadata-based topics
+
+There are labels such as `linux-puppet-module`, `bsd-puppet-module` and `windows-puppet-module` that can be set based on metadata. To see what would be done:
+```bash
+./bin/github_topics
+```
+
+Then to actually run:
+```bash
+./bin/github_topics --set-topics
+```
+
 ## syncing labels
 
 In the past we used a nodejs script to sync labels. This feature moved to
