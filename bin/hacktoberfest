@@ -28,7 +28,7 @@ def update_topics(organization_name, token, set_topics):
 
     user = github.get_organization(organization_name)
 
-    for repository in user.get_repos():
+    for repository in sorted(user.get_repos(), key=lambda repository: repository.name):
         if not repository.archived:
             handle_repository(repository, set_topics)
 
