@@ -29,6 +29,20 @@ to encrypt:
 ./bin/encrypt_credentials.sh
 ```
 
+## Repository topics
+
+### Hacktoberfest
+
+Hacktoberfest wants to have the `hacktoberfest` topic applied to a repository before it counts. To see what's missing:
+```bash
+./bin/hacktoberfest
+```
+
+Then to actually run:
+```bash
+./bin/hacktoberfest --set-topics
+```
+
 ## syncing labels
 
 In the past we used a nodejs script to sync labels. This feature moved to
