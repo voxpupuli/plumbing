@@ -10,8 +10,8 @@ from base64 import b64decode
 from github import Github
 
 OS_TOPICS = {
-    'Amazon': {'linux-puppet-module', '-puppet-module'},
-    'Archlinux': {'linux-puppet-module', '-puppet-module'},
+    'Amazon': {'linux-puppet-module', 'amazon-puppet-module'},
+    'Archlinux': {'linux-puppet-module', 'archlinux-puppet-module'},
     'CentOS': {'linux-puppet-module', 'centos-puppet-module'},
     'Debian': {'linux-puppet-module', 'debian-puppet-module'},
     'Fedora': {'linux-puppet-module', 'fedora-puppet-module'},
