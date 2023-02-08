@@ -114,16 +114,23 @@ gpg-signed commits, so a PMC member also needs a gpg key.
 
 After people got elected, they need to be onboarded by a former PMC member:
 
-* Add the new people to the [Project-Maintainers](https://github.com/orgs/voxpupuli/teams/project-maintainers) group on github, remove former PMC members if desired (this role is not exclusively for PMC members)
+* Add the new people to the [Project-Maintainers](https://github.com/orgs/voxpupuli/teams/project-maintainers) group on GitHub, remove former PMC members if desired (this role is not exclusively for PMC members)
 * Try to establish a gpg relationship between all PMC members
+    * If possible use [WKD](https://wiki.gnupg.org/WKD) to distrubte GPG keys
+    * Upload keys to [keyserver.ubuntu.com](https://keyserver.ubuntu.com/) and (keys.openpgp.org)[https://keys.openpgp.org/]
+    * In case people meet in person, for example during a conference, sign GPG keys
 * Add new gpg keys to [our plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/recipients.txt) and remove old keys
+* Check that the key is valid for at least one year (one PMC term)
 * Ensure that everybody can [decrypt and encrypt](https://github.com/voxpupuli/plumbing#gpg) our secrets
 * Add the mail address from all new members to [our pmc@voxpupuli.org](https://app.mailgun.com/app/lists/pmc%40voxpupuli.org) mailing list and remove former members
 * Promote every PMC member to an [owner](https://groups.io/g/voxpupuli/members?p=,mods,,0,0,0,0) for our mailing list
-* Ensure that they have a bouncer in at least `#voxpupuli-pmc`
+* Ensure that they have a bouncer in at least `#voxpupuli-pmc` and `#voxpupuli` on [Libera.Chat](https://libera.chat/)
 * Configure a [cloak](https://libera.chat/guides/cloaks) if desired (voxpupuli/pmc/$nickname)
-* Add them to the admin list for the `#voxpupuli` IRC channel
-* Suggest joining `#voxpupuli-notifications`
+* Add them to the admin list for the `#voxpupuli` IRC channel, remove former PMC members
+* Add them as admin at [opencollective.com](https://opencollective.com/vox-pupuli/admin/team)
+* Each PMC member should create an Hetzner Account at [Hetzner](https://accounts.hetzner.com/login)
+* Invite each PMC member to the Hetzner Cloud project, remove former PMC members
+* Add Each PMC member at [our GitHub sponsors page](https://github.com/sponsors/voxpupuli/), remove former PMC members
 
 ### Specialized Roles
 
