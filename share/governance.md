@@ -143,6 +143,7 @@ and unfortunate situation where the PMC removes the officer. The PMC can add
 more officer roles as it sees fit by modifying this document.
 
 1) Election Officer: The election officer can be on the PMC, as long as they are not running in the election they are officiating
+  * The election officer will be a member of the `election-officer` GitHub group which grants him write access to the plumbing repository.
 
 2) Security Officer: This is the point of contact for external or internal security issues, this person has a published gpg key, and will be the main point of contact for CVE numbers and such
 
