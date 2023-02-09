@@ -115,7 +115,7 @@ gpg-signed commits, so a PMC member also needs a gpg key.
 After people got elected, they need to be onboarded by a former PMC member:
 
 * Add the new people to the [Project-Maintainers](https://github.com/orgs/voxpupuli/teams/project-maintainers) group on GitHub, remove former PMC members if desired (this role is not exclusively for PMC members)
-* Try to establish a gpg relationship between all PMC members
+* Try to establish a GPG relationship between all PMC members
     * If possible use [WKD](https://wiki.gnupg.org/WKD) to distrubte GPG keys
     * Upload keys to [keyserver.ubuntu.com](https://keyserver.ubuntu.com/) and (keys.openpgp.org)[https://keys.openpgp.org/]
     * In case people meet in person, for example during a conference, sign GPG keys
