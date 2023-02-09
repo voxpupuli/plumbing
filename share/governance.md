@@ -119,7 +119,7 @@ After people got elected, they need to be onboarded by a former PMC member:
     * If possible use [WKD](https://wiki.gnupg.org/WKD) to distrubte GPG keys
     * Upload keys to [keyserver.ubuntu.com](https://keyserver.ubuntu.com/) and (keys.openpgp.org)[https://keys.openpgp.org/]
     * In case people meet in person, for example during a conference, sign GPG keys
-* Add new gpg keys to [our plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/recipients.txt) and remove old keys
+* Add new GPG keys to [our plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/recipients.txt) and remove old keys
 * Check that the key is valid for at least one year (one PMC term)
 * Ensure that everybody can [decrypt and encrypt](https://github.com/voxpupuli/plumbing#gpg) our secrets
 * Add the mail address from all new members to [our pmc@voxpupuli.org](https://app.mailgun.com/app/lists/pmc%40voxpupuli.org) mailing list and remove former members
