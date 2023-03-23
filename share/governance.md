@@ -117,7 +117,7 @@ After people got elected, they need to be onboarded by a former PMC member:
 * Add the new people to the [Project-Maintainers](https://github.com/orgs/voxpupuli/teams/project-maintainers) group on GitHub, remove former PMC members if desired (this role is not exclusively for PMC members)
 * Try to establish a GPG relationship between all PMC members
     * If possible use [WKD](https://wiki.gnupg.org/WKD) to distrubte GPG keys
-    * Upload keys to [keyserver.ubuntu.com](https://keyserver.ubuntu.com/) and (keys.openpgp.org)[https://keys.openpgp.org/]
+    * Upload keys to [keyserver.ubuntu.com](https://keyserver.ubuntu.com/) and [keys.openpgp.org](https://keys.openpgp.org/)
     * In case people meet in person, for example during a conference, sign GPG keys
 * Add new GPG keys to [our plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/recipients.txt) and remove old keys
 * Check that the key is valid for at least one year (one PMC term)
@@ -143,6 +143,7 @@ and unfortunate situation where the PMC removes the officer. The PMC can add
 more officer roles as it sees fit by modifying this document.
 
 1) Election Officer: The election officer can be on the PMC, as long as they are not running in the election they are officiating
+  * The election officer will be a member of the `election-officer` GitHub group which grants him write access to the plumbing repository.
 
 2) Security Officer: This is the point of contact for external or internal security issues, this person has a published gpg key, and will be the main point of contact for CVE numbers and such
 
