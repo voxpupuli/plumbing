@@ -7,9 +7,10 @@ rm -f puppet_credentials.asc
 recipients=''
 
 while read -r recp; do
+  recipient=$(echo "${recp}" | cut -d' ' -f1)
   echo "--recipient ${recp}"
-  recipients="${recipients} --recipient ${recp}"
-  gpg --recv-keys "${recp}"
+  recipients="${recipients} --recipient ${recipient}"
+  gpg --recv-keys "${recipient=}"
 done < recipients.txt
 
 # shellcheck disable=SC2086
