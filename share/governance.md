@@ -128,6 +128,9 @@ After people got elected, they need to be onboarded by a former PMC member:
 * Ensure that they have a bouncer in at least `#voxpupuli-pmc` and `#voxpupuli` on [Libera.Chat](https://libera.chat/)
 * Configure a [cloak](https://libera.chat/guides/cloaks) if desired (voxpupuli/pmc/$nickname)
 * Add them to the admin list for the `#voxpupuli` IRC channel, remove former PMC members
+    * `/msg ChanServ flags #voxpupuli` to list flags
+    * `/msg Chanserv flags #voxpupuli $nick -*` to remove all permissions
+    * `/msg Chanserv flags #voxpupuli $nick +AFRefiorstv` to grant all permissions
 * Add them as admin at [opencollective.com](https://opencollective.com/vox-pupuli/admin/team)
 * Each PMC member should create an Hetzner Account at [Hetzner](https://accounts.hetzner.com/login)
 * Invite each PMC member to the Hetzner Cloud project, remove former PMC members
