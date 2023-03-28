@@ -1,17 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 
 set -eu
 
 rm -f puppet_credentials.asc
 
-recipients=''
-
-while read -r recp; do
-  recipient=$(echo "${recp}" | cut -d' ' -f1)
-  echo "--recipient ${recp}"
-  recipients="${recipients} --recipient ${recipient}"
-  gpg --recv-keys "${recipient=}"
-done < recipients.txt
-
+recipients=$(cut -d' ' -f1 recipients.txt)
 # shellcheck disable=SC2086
-gpg --sign --encrypt --armor ${recipients} puppet_credentials
+echo gpg --recv-keys ${recipients}
+
+# shellcheck disable=SC2046
+gpg --sign --encrypt --armor $(echo "$recipients" | sed -e 's/^/--recipient /') puppet_credentials
