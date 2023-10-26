@@ -135,6 +135,8 @@ After people got elected, they need to be onboarded by a former PMC member:
 * Each PMC member should create an Hetzner Account at [Hetzner](https://accounts.hetzner.com/login)
 * Invite each PMC member to the Hetzner Cloud project, remove former PMC members
 * Add each PMC member at [our GitHub sponsors page](https://github.com/sponsors/voxpupuli/), remove former PMC members
+* Each PMC member should create a [Docker](https://hub.docker.com/) account
+* Invite each PMC member to the `owner` team at Docker, remove former PMC members
 
 ### Specialized Roles
 
