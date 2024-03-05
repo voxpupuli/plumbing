@@ -3,7 +3,7 @@
 I, [Tim Meusel](https://github.com/bastelfreak), nominate
 [Alex Fisher](https://github.com/alexjfisher) as a PMC candidate.
 
-Ewoud is awesome! That's it. That should be enough as an introduction.
+Alex is awesome! That's it. That should be enough as an introduction.
 
 Alex, or afisher, is around since a decade. He already served at the PMC and it
 is always a pleasure to work with him. Not only does he have a huge amount of
