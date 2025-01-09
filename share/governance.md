@@ -9,6 +9,11 @@
   * [Project Management Committee (PMC)](#project-management-committee-pmc)
     * [PMC Onboarding](#pmc-onboarding)
   * [Specialized Roles](#specialized-roles)
+  * [Subcommittees](#subcommittees)
+    * [Module committee](#module-committee)
+    * [Security committee](#security-committee)
+    * [Language committee](#language-committee)
+    * [Ecosystem committee](#ecosystem-committee)
 * [Lazy Consensus](#lazy-consensus)
 * [PMC Removal](#pmc-removal)
 * [Transparency](#transparency)
@@ -92,7 +97,10 @@ include participating in strategic planning, release planning and approving
 changes to the governance model. One of the most important duties is to uphold
 the community code of [conduct](https://voxpupuli.org/coc/) and ensure its
 values. The PMC has to make decisions when community consensus cannot be
-reached.
+reached. The PMC is tasked with preserving any intellectual property and
+retaining control of related services such as domains, github namespaces,
+social media accounts, etc. It will catalog these and check them on a regular
+basis which is at least annually.
 
 The PMC has final say over who can become a committer and will use lazy consensus for approval.
 Discussion over committer nominations will be done in private.
@@ -107,10 +115,12 @@ Traditionally, elections (the nomination period) starts during config management
 
 The PMC doesn't have specific roles or a chairperson.
 
-At the moment, IRC is our main communication channel. PMC members should be
-present in our `#voxpupuli-pmc` channel on [libera.chat](https://libera.chat).
+IRC is the main communication channel for PMC business. PMC members should be
+present in our `#voxpupuli-pmc` channel on [libera.chat](https://libera.chat)
+or the connected Slack channel on the Vox Pupuli slack workspace.
+
 Also we have some gpg-encrypted credentials and a few repositories require
-gpg-signed commits, so a PMC member also needs a gpg key.
+gpg-signed commits, so a PMC member also needs a GPG key.
 
 #### PMC Onboarding
 
@@ -119,7 +129,7 @@ After people got elected, they need to be onboarded by a former PMC member:
 * Add the new people to the [Project-Maintainers](https://github.com/orgs/voxpupuli/teams/project-maintainers) group on GitHub, remove former PMC members if desired (this role is not exclusively for PMC members)
 * In the [organisation settings](https://github.com/orgs/voxpupuli/people?query=role%3Aowner), set former PMC members from `Owner` to `Member`, update new PMC members to `Owner`
 * Try to establish a GPG relationship between all PMC members
-    * If possible use [WKD](https://wiki.gnupg.org/WKD) to distrubte GPG keys
+    * If possible use [WKD](https://wiki.gnupg.org/WKD) to distribute GPG keys
     * Upload keys to [keyserver.ubuntu.com](https://keyserver.ubuntu.com/) and [keys.openpgp.org](https://keys.openpgp.org/)
     * In case people meet in person, for example during a conference, sign GPG keys
 * Add new GPG keys to [our plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/recipients.txt) and remove old keys
@@ -150,12 +160,39 @@ role. Appointments last until either the officer steps down, or the unlikely
 and unfortunate situation where the PMC removes the officer. The PMC can add
 more officer roles as it sees fit by modifying this document.
 
-1) Election Officer: The election officer can be on the PMC, as long as they are not running in the election they are officiating
-  * The election officer will be a member of the `election-officer` GitHub group which grants him write access to the plumbing repository.
+1) Election Officer: The election officer can be on the PMC, as long as they are not running in the election they are officiating.
+  * The election officer will be a member of the `election-officer` GitHub group which grants them write access to the plumbing repository.
 
-2) Security Officer: This is the point of contact for external or internal security issues, this person has a published gpg key, and will be the main point of contact for CVE numbers and such
+2) Security Officer: This is the point of contact for external or internal security issues, this person has a published GPG key, and will be the main point of contact for CVE numbers and such.
 
-3) Communications Officer: This is the main point of contact for external and internal publicity and marketing efforts and requests
+3) Communications Officer: This is the main point of contact for external and internal publicity and marketing efforts and requests.
+
+### Subcommittees
+
+Each subcommittee will have at least one member who is also on the PMC and at
+least three members in total. To be elligible for a subcommittee, one must
+already be Collaborator.
+
+#### Module committee
+
+This committee will manage what Vox Pupuli has generally managed including
+Puppet modules, puppet-lint and plugins, editor integrations, the associated
+plumbing to test and manage these repositories and the like.
+
+#### Security committee
+
+This committee will manage security incidents including working with third
+parties such as Perforce.
+
+#### Language committee
+
+This committee will work with the community and Perforce to create standards
+for the language so that implementations can remain compatible.
+
+#### Ecosystem committee
+
+This committee will manage software such as Puppet, Facter and Bolt as well as
+the associated plumbing to test and manage these repositories.
 
 ## Lazy Consensus
 
@@ -164,7 +201,7 @@ process that allows a large group of people to efficiently reach
 consensus, as someone with no objections to a proposal need not spend time
 stating their position, and others need not spend time reading such statements.
 
-For lazy consensus to be effective, it is necessary to allow at least 72 hours
+For lazy consensus to be effective, it is necessary to allow at least 7 days
 before assuming that there are no objections to the proposal. This requirement
 ensures that everyone is given enough time to read, digest and respond to the
 proposal. This time period is chosen so as to be as inclusive as possible of
@@ -202,10 +239,12 @@ to its success. To that end, decision making must be done in a transparent,
 open fashion. No decisions about the project’s direction, bug fixes or features
 may be done without community involvement and participation. Discussions must
 begin at the earliest possible point on a topic; the community’s participation
-is vital during the entire decision-making process.
+is vital during the entire decision-making process. While conversations happen
+on many mediums, decisions must be made through the mailing list.
 
 ## Election
 
 The details of the election process are up to the elections officer, subject to
 approval by the PMC. The users, collaborators, and contributors all get to vote
-in the election.
+in the election. The election will pick members of the PMC as well as the
+subcommittees.
