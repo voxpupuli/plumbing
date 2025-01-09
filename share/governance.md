@@ -94,14 +94,16 @@ the community code of [conduct](https://voxpupuli.org/coc/) and ensure its
 values. The PMC has to make decisions when community consensus cannot be
 reached.
 
-The PMC has final say over who can become a committer and will use lazy
-consensus for approval. Discussion over committer nominations will be done in
-private.
+The PMC has final say over who can become a committer and will use lazy consensus for approval.
+Discussion over committer nominations will be done in private.
 
 Membership of the PMC is by election.
-[Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) voting is held once
-a year. A non-running election official is appointed by the PMC and runs the
-election. There are 5 members of the PMC. Terms are 1 year.
+[Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) voting is held once a year.
+A non-running election official is appointed by the PMC and runs the election.
+There are 5 members of the PMC.
+Terms are 1 year.
+The election official desides when exactly the election starts and how long the nomination period is.
+Traditionally, elections (the nomination period) starts during config management camp.
 
 The PMC doesn't have specific roles or a chairperson.
 
