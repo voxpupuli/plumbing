@@ -103,7 +103,7 @@ A non-running election official is appointed by the PMC and runs the election.
 There are 5 members of the PMC.
 Terms are 1 year.
 The election official desides when exactly the election starts and how long the nomination period is.
-Previously, elections (the monination period) started during config management camp.
+Traditionally, elections (the nomination period) starts during config management camp.
 
 The PMC doesn't have specific roles or a chairperson.
 
