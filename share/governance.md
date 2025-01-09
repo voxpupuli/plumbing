@@ -105,10 +105,9 @@ election. There are 5 members of the PMC. Terms are 1 year.
 
 The PMC doesn't have specific roles or a chairperson.
 
-At the moment, IRC is our main communication channel. PMC members should be
-present in our `#voxpupuli-pmc` channel on [libera.chat](https://libera.chat).
-Also we have some gpg-encrypted credentials and a few repositories require
-gpg-signed commits, so a PMC member also needs a gpg key.
+At the moment, IRC is our main communication channel.
+PMC members should be present in our `#voxpupuli-pmc` channel on [libera.chat](https://libera.chat).
+Also we have some gpg-encrypted credentials and a few repositories require gpg- or ssh-signed commits, so a PMC member also needs a gpg key.
 
 #### PMC Onboarding
 
