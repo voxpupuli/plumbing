@@ -1,7 +1,7 @@
 # Vox Pupuli DevOps
 
 This is an overview of our infrastructure.
-Stuff that's sponsored, or payed by us, is explicitly marked.
+Stuff that's sponsored, or paid by us, is explicitly marked.
 
 
 * [System rules](#system-rules)
@@ -57,13 +57,13 @@ Those are explained in the governance.md doc in the PMC section.
 We've two internal email addresses.
 They shouldn't be used publicly.
 They are listed in the `puppet_credentials`.
-Those are payed in advance via our open source collective credit card.
+Those are paid in advance via our open source collective credit card.
 
 ### DNS
 
 Our domain registrar is [INWX](https://www.inwx.de/de).
 We use the nameservers at INWX and Hetzner.
-The domains are payed in advance via our open source collective credit card.
+The domains are paid in advance via our open source collective credit card.
 
 ### Cloudflare
 
