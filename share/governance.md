@@ -138,6 +138,7 @@ After people got elected, they need to be onboarded by a former PMC member:
 * Add each PMC member at [our GitHub sponsors page](https://github.com/sponsors/voxpupuli/), remove former PMC members
 * Each PMC member should create a [Docker](https://hub.docker.com/) account
 * Invite each PMC member to the `owner` team at Docker, remove former PMC members
+* Add each PMC member as an admin on [dev.to](https://dev.to/voxpupuli), check puppet_credentials for details
 
 ### Specialized Roles
 
