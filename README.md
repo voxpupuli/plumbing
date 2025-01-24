@@ -29,6 +29,21 @@ to encrypt:
 ./bin/encrypt_credentials.sh
 ```
 
+### keys are missing
+
+if you get this error:
+
+```text
+gpg: 0x123ABC...: skipped: unusable public key
+gpg: puppet_credentials: sign+encrypt failed: unusable public key
+```
+
+you need to import the key:
+
+```bash
+gpg --recv-keys 0x123ABC...
+```
+
 ## Repository topics
 
 ### Hacktoberfest
