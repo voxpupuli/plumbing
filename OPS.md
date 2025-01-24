@@ -43,6 +43,7 @@ Stuff that's sponsored, or paid by us, is explicitly marked.
 
 Admin access to the services is handled via shared accounts in `puppet_credentials` or via personal accounts.
 Those are explained in the governance.md doc in the PMC section.
+Use `pmc@voxpupuli.org` for administrative accounts & `voxbot@voxpupuli.org` for bot accounts.
 
 ### public mailinglist
 
