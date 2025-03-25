@@ -17,6 +17,11 @@ The secrets for the Puppet Forge and Rubygems are set via [organization secrets]
 
 ## gpg
 
+to import all the keys from [recipients.txt](https://github.com/voxpupuli/plumbing/blob/master/recipients.txt)
+
+```bash
+./bin/import_keys.sh
+```
 to decrypt:
 
 ```bash
