@@ -11,7 +11,7 @@ Stuff that's sponsored, or paid by us, is explicitly marked.
     * [CERN CI runners](#CERN-CI-runners)
 * [Software as a service](#software-as-a-service)
     * [public mailinglist](#public-mailinglist)
-    * [PMC alias](#PMC-alias)
+    * [Email aliases](#email-aliases)
     * [internal PMC email addresses](#internal-PMC-email-addresses)
     * [DNS](#dns)
     * [Cloudflare](#Cloudflare)
@@ -32,6 +32,10 @@ Stuff that's sponsored, or paid by us, is explicitly marked.
 
 * ARM64 VM at [Hetzner](https://hetzner.de/), sponsored by simonhoenscheid
 
+### ci03.voxpupu.li
+
+* Dedicated X86 server at [Hetzner](https://hetzner.de/), sponsored by [Spritzgebaeck](https://github.com/sebastianrakel)
+
 ### CERN CI runners
 
 * Different VMs managed and sponsored by CERN
@@ -49,9 +53,15 @@ Use `pmc@voxpupuli.org` for administrative accounts & `voxbot@voxpupuli.org` for
 
 [groups.io](https://groups.io/g/voxpupuli) runs the `voxpupuli@groups.io` mailinglist.
 
-### PMC alias
+### Email aliases
 
-`pmc@voxpupuli.org` is configured at [mailgun](https://app.mailgun.com/mg/sending/mailing-lists/pmc%40voxpupuli.org?listMembers=%7B%22limit%22%3A10%2C%22searchAddress%22%3A%22%22%2C%22skip%22%3A0%7D).
+Unless otherwise noted, all lists are public and everybody is free to contact the group
+
+* `pmc@voxpupuli.org` is configured at [mailgun](https://app.mailgun.com/mg/sending/mailing-lists/pmc%40voxpupuli.org?listMembers=%7B%22limit%22%3A10%2C%22searchAddress%22%3A%22%22%2C%22skip%22%3A0%7D). To reach the PMC
+* `openvox@voxpupuli.org` is configured at [mailgun](https://app.mailgun.com/mg/sending/mailing-lists/openvox%40voxpupuli.org?listMembers=%7B%22limit%22%3A10%2C%22searchAddress%22%3A%22%22%2C%22skip%22%3A0%7D). Serviceaccount, to reach OpenVoxProject admins (PMC at the moment).
+* `security@voxpupuli.org` is configured at [mailgun](https://app.mailgun.com/mg/sending/mailing-lists/security%40voxpupuli.org?listMembers=%7B%22limit%22%3A10%2C%22searchAddress%22%3A%22%22%2C%22skip%22%3A0%7D) for the security SIG
+* `social@voxpupuli.org` is configured at [mailgun](https://app.mailgun.com/mg/sending/mailing-lists/steering%40voxpupuli.org?listMembers=%7B%22limit%22%3A10%2C%22searchAddress%22%3A%22%22%2C%22skip%22%3A0%7D). to reach the social media SIG
+* `steering@voxpupuli.org` is configured at [mailgun](https://app.mailgun.com/mg/sending/mailing-lists/steering%40voxpupuli.org?listMembers=%7B%22limit%22%3A10%2C%22searchAddress%22%3A%22%22%2C%22skip%22%3A0%7D). It's an internal list
 
 ### internal PMC email addresses
 
