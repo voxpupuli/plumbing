@@ -36,7 +36,7 @@ share/elections/2026-02/
 
 ## Create the election markdown file
 
-Inside the folder create a file named:
+Inside the election folder create a file named:
 
 ```
 YYYY-MM.md
@@ -45,7 +45,7 @@ YYYY-MM.md
 Example:
 
 ```
-share/elections/2026-02/2026-02.md
+share/elections/2026-02.md
 ```
 
 This file should contain:
@@ -57,14 +57,13 @@ This file should contain:
 
 ## Store candidate nominations
 
-Candidate nominations should be placed inside the same folder.
+Candidate nominations should be placed inside the new folder.
 
 Example structure:
 
 ```
 share/elections/2026-02/
 
-├─ 2026-02.md
 ├─ candidate1.md
 ├─ candidate2.md
 ```
