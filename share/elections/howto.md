@@ -34,6 +34,8 @@ Example:
 share/elections/2026-02/
 ```
 
+Add a `.gitkeep` file to the empty directory to ensure the folder is kept in the repository.
+
 ## Create the election markdown file
 
 Inside the election folder create a file named:
